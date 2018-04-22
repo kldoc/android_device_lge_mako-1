@@ -156,6 +156,8 @@ TW_INCLUDE_CRYPTO := true
 else
 TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/recovery/fstab.mako
 endif
+USE_DEVICE_SPECIFIC_CAMERA:= true
+USE_DEVICE_SPECIFIC_QCOM_PROPRIETARY:= true
 
 # Device manifest
 DEVICE_MANIFEST_FILE := $(PLATFORM_PATH)/manifest.xml
